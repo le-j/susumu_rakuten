@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="euc-jp">
+<meta name="viewport" content="width=1072, user-scalable=yes,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>ご利用ガイド</title>
+<link href="./css/cormorant.css" rel="stylesheet" charset="utf-8">
+<link href="./css/notosansjapanese.css" rel="stylesheet" charset="utf-8">
+<script>FontAwesomeConfig = { searchPseudoElements:true };</script>
+<script defer src="./js/all.min.js" charset="utf-8"></script>
+<link href="./css/reset.css" rel="stylesheet" charset="utf-8">
+<style type="text/css">
+body{width:100%;font-family:"Noto Sans Japanese",sans-serif}
+*{box-sizing:border-box}
+a{text-decoration:none;-moz-transition:all 0.2s ease-out;-webkit-transition:all 0.2s ease-out;transition:all 0.2s ease-out}
+a:hover{-moz-transition:all 0.4s ease-out;-webkit-transition:all 0.4s ease-out;transition:all 0.4s ease-out}
+a img{filter:alpha(opacity=100);-moz-opacity:1.0;opacity:1.0;-moz-transition:opacity 0.2s ease-out;-webkit-transition:opacity 0.2s ease-out;transition:opacity 0.2s ease-out}
+a:hover img{filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;-moz-transition:opacity 0.4s ease-out;-webkit-transition:opacity 0.4s ease-out;transition:opacity 0.4s ease-out}
+.cf:before, .cf:after{content:"";display:table}
+.cf:after{clear:both}
+#contents {width:1000px;margin:50px auto 120px auto}
+#contents h1{color:#333;border-bottom:1px solid #333;padding:0;margin:0 auto 12px;width:1000px;font-family:"Cormorant",serif;font-size:24px;line-height:1;letter-spacing:.1em}
+#contents h1 small{color:#777;font-size:0.6em;font-weight:500;font-family:"Noto Sans Japanese",sans-serif;margin-left:15px;letter-spacing:.1em}
+#contents h2{border-bottom:1px solid #999;color:#333;font-size:20px;font-weight:300;letter-spacing:.1em;padding-bottom:7px;margin:0 0 10px 0}
+#contents h2::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f22d"}
+#contents h2 .svg-inline--fa{color:#999;margin:0 0.4em 0 2px}
+#contents h3{color:#960;font-size:18px;font-weight:400;margin:10px 0;letter-spacing:.1em}
+nav#pScroll {margin:0 0 50px 0}
+nav#pScroll ul{text-align:center;padding-top:10px}
+nav#pScroll ul li{width:calc((100% - 60px) / 4);float:left}
+nav#pScroll ul li:nth-of-type(4n-3),nav#pScroll ul li:nth-of-type(4n-2),nav#pScroll ul li:nth-of-type(4n-1){margin:0 20px 20px 0}
+nav#pScroll ul li:nth-of-type(4n){margin:0 0 20px 0}
+nav#pScroll ul li a{display:block;width:100%;border:1px solid #cfcfcf;border-radius:2px;padding:18px 0 18px 10px;color:#555;position:relative}
+nav#pScroll ul li a:hover{background-color:#F5F5F5}
+nav#pScroll ul li a::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f078"}
+nav#pScroll ul li a .svg-inline--fa{color:#aaa;margin:0 0.5em 0 0;font-size:24px;position:absolute;left:10px;top:15px}
+#contents ul{list-style:none;width:100%}
+#flow ul{margin:20px 0 70px 0;letter-spacing:-.4em}
+#flow ul li{width:calc(100% / 5 - 20px);display:inline-block;letter-spacing:normal;text-align:center;vertical-align:top;position:relative;border:1px solid #cfcfcf;margin:10px 10px 0 10px;padding:10px 0;border-radius:3px}
+#flow ul li.orderFlow::before{font-family:"Font Awesome 5 Solid";display:none;content:"\f0a9"}
+#flow ul li.orderFlow .svg-inline--fa{color:#999;font-size:30px;position:absolute;right:-25px;margin-top:81px;z-index:100}
+#flow ul li.orderFlowEnd .svg-inline--fa{color:#F5F5F5}
+#flow ul li dl {width:calc(100% - 20px);margin:0 auto;font-family:"Noto Sans Japanese",sans-serif;line-height:180%}
+#flow ul li dl dt {font-size:16px;letter-spacing:.1em;padding-bottom:80px;color:#960}
+#flow ul li dl dt::before{font-family:"Font Awesome 5 Solid";display:none}
+#flow ul li dl dt .svg-inline--fa{color:#666!important;font-size:60px!important;position:absolute;left:50%;margin-top:37px!important;margin-left:-35px}
+#flow ul li:nth-of-type(1) dl dt::before{content:"\f108"}
+#flow ul li:nth-of-type(2) dl dt::before{content:"\f0e0"}
+#flow ul li:nth-of-type(3) dl dt::before{content:"\f2b6"}
+#flow ul li:nth-of-type(4) dl dt::before{content:"\f48b"}
+#flow ul li:nth-of-type(5) dl dt::before{content:"\f06b"}
+#flow ul li dl dd {font-size:13px;letter-spacing:0}
+#flow ul li dl dd span {display:block;font-size:16px;color:#960}
+#payment{margin:-30px 0 70px 0;padding-top:30px;color:#444}
+#payment h3{padding-top:10px}
+#payment table{border-collapse:collapse;width:100%;margin:10px auto;font-weight:300;}
+#payment th,#payment td{border:1px solid #ccc;padding:10px;vertical-align:middle}
+#payment th{font-size:15px;font-weight:400;text-align:center}
+#payment td{font-size:13px}
+#payment tr:first-child th,#payment tr:first-child td{border-top:4px solid #960}
+#payment p,#payment dl,#payment ul{line-height:180%;font-size:14px;font-weight:300;letter-spacing:.1em}
+#payment dl dt{letter-spacing:1em}
+#payment dl dt::before{content:"【";color:#999;margin:0 .5em 0 -7px;letter-spacing:normal}
+#payment dl dt::after{content:"】";color:#999;margin:0 0 0 -0.5em;letter-spacing:normal}
+#payment dl dd{letter-spacing:.1em}
+#payment dl dd::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f192"}
+#payment dl dd .svg-inline--fa{font-size:10px;color:#960;margin:0 .5em 0 0}
+#payment ul{padding-bottom:10px}
+#payment ul li::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f069"}
+#payment ul li .svg-inline--fa{font-size:10px;color:#999;margin:0 .5em 0 0}
+table.rakutenBank td{text-align:center}
+table caption{letter-spacing:1em;text-align:left;margin-bottom:5px}
+table caption::before{content:"【";color:#999;margin:0 .5em 0 -7px;letter-spacing:normal}
+table caption::after{content:"】";color:#999;margin:0 0 0 -0.5em;letter-spacing:normal}
+#payment dl span{margin-left:1.1em}
+#flow,#shipping,#delivery,#tax,#return,#open,#overseas,#inquiry,#policy,#company{margin:-30px 0 70px 0;padding-top:30px;display:block}
+#shipping dl,#delivery dl{padding:10px 0;line-height:180%}
+#shipping dl dt,#delivery dl dt{color:#333;font-size:18px;font-weight:300;}
+#shipping dl dt span{color:#960;font-weight:400;margin-left:.3em}
+#shipping dl dd{color:#333;font-size:14px;font-weight:300;letter-spacing:.1em}
+#shipping dl dd::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f069"}
+#shipping dl dd .svg-inline--fa{font-size:10px;color:#999;margin:0 .5em 0 0}
+#delivery dl dt span{color:#960;font-weight:400;margin-right:.3em}
+#delivery dl dd{color:#333;font-size:14px;font-weight:300;letter-spacing:.1em}
+#delivery table,#tax table,#return table,#open table,#inquiry table{border-collapse:collapse;width:100%;margin:10px auto;font-weight:300;letter-spacing:.1em}
+#delivery th,#delivery td,#tax th,#tax td,#return th,#return td,#open th,#open td,#inquiry th,#inquiry td{border:1px solid #ccc;padding:10px;vertical-align:middle}
+#delivery th,#tax th,#return th,#open th,#inquiry th{font-size:15px;font-weight:400;text-align:center}
+#delivery td,#tax td,#return td{font-size:13px}
+#delivery tr:first-child th,#delivery tr:first-child td,#tax tr:first-child th,#tax tr:first-child td,#return tr:first-child th,#return tr:first-child td,#open tr:first-child th,#open tr:first-child td,#inquiry tr:first-child th,#inquiry tr:first-child td{border-top:4px solid #960}
+#tax table,#open table{line-height:180%;color:#333}
+#tax table caption{font-size:14px}
+#return p{padding:10px 0;font-size:14px;line-height:180%;letter-spacing:.1em}
+#return th{width:27%}
+#return dl{width:100%;letter-spacing:-.4em;line-height:180%}
+#return dl dt,#return dl dd{display:inline-block;letter-spacing:.1em}
+#return dl dt{width:14%;font-weight:500}
+#return dl dd::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f0da"}
+#return dl dd .svg-inline--fa{color:#999;margin:0 .7em 0 0}
+#return dl dd{width:calc(100% - 14%)}
+#open p,#overseas p,#inquiry p{padding:10px 0;font-size:14px;line-height:180%;letter-spacing:.1em}
+#open p span{color:#960}
+#open p span::before{display:none;font-family:"Font Awesome 5 Solid";font-weight:900;content:"\f069"}
+#open p span .svg-inline--fa{font-size:12px;color:#960;margin:0 .5em 0 0}
+table.rakutenBank td{text-align:center}
+#open td{font-size:15px;text-align:center}
+#policy ul{padding:10px 0;font-size:14px;line-height:180%;letter-spacing:.1em}
+#inquiry h2{margin-bottom:20px}
+#inquiry table{line-height:180%;margin:10px 0}
+#company dl{padding:10px 0;line-height:180%}
+#company dl dt{color:#960;font-size:18px;font-weight:300;}
+#company dd{color:#333;font-size:14px;font-weight:300;letter-spacing:.1em}
+#pageTop {position:fixed;bottom:10px;right:10px}
+#pageTop a{display:block;z-index:999;width:50px;height:50px;border-radius:2px;background-color:rgba(0,0,0,.60);color:#fff;font-size:28px;text-decoration:none;text-align:center;padding-top:8px}
+#pageTop a:hover{opacity: 0.7}
+header{width:100%}
+header iframe{width:100%;height:120px}
+footer{width:100%}
+footer iframe{width:100%;height:1203px}
+</style>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+$(function(){$('a[href^="#"]').click(function(){var speed=400;var href=$(this).attr("href");var target=$(href=="#"||href=="" ? 'html':href);var position=target.offset().top;$("html, body").animate({scrollTop:position},speed, "swing");return false;});});
+$(function(){var topBtn=$('#pageTop');topBtn.hide();$(window).scroll(function(){if($(this).scrollTop()>30){topBtn.fadeIn('slow');}else{topBtn.fadeOut('fast');}});topBtn.click(function(){$('body,html').animate({scrollTop:0},400);return false;});});
+</script>
+</head>
+
+<body>
+  <header>
+    <iframe src="./header2.html" name="header" frameborder="0" scrolling="no">この部分はインラインフレームを使用しています。</iframe>
+  </header>
+
+  <div id="contents">
+    <h1>USER'S GUIDE<small>ご利用ガイド</small></h1>
+    <nav id="pScroll">
+      <ul class="cf">
+        <li><a href="#flow">お届けまでの流れ</a></li>
+        <li><a href="#payment">お支払について</a></li>
+        <li><a href="#shipping">送料について</a></li>
+        <li><a href="#delivery">配送について</a></li>
+        <li><a href="#tax">消費税について</a></li>
+        <li><a href="#return">返品・交換について</a></li>
+        <li><a href="#open">営業時間について</a></li>
+        <li><a href="#overseas">海外販売について</a></li>
+        <li><a href="#inquiry">お問い合わせ</a></li>
+        <li><a href="#policy">プライバシーポリシー</a></li>
+        <li><a href="#company">運営会社</a></li>
+      </ul>
+    </nav>
+    <article id="flow">
+      <h2>注文からお届けまでの流れ</h2>
+      <ul>
+        <li class="orderFlow">
+          <dl>
+            <dt>1. ご注文</dt>
+            <dd>ご注文は<span>365日24時間</span>いつでもOK!</dd>
+          </dl>
+        </li>
+        <li class="orderFlow">
+          <dl>
+            <dt>2. 自動確認メール</dt>
+            <dd><span>楽天市場から</span>自動配信メールが<br>届きます</dd>
+          </dl>
+        </li>
+        <li class="orderFlow">
+          <dl>
+            <dt>3. 受注確認メール</dt>
+            <dd><span>当店から</span>ご注文確認メールを<br>お送りいたします</dd>
+          </dl>
+        </li>
+        <li class="orderFlow">
+          <dl>
+            <dt>4. 発送</dt>
+            <dd><span>翌日発送</span>発送完了メールを<br>お送りいたします</dd>
+          </dl>
+        </li>
+        <li class="orderFlowEnd">
+          <dl>
+            <dt>5.商品到着</dt>
+            <dd><span>商品到着</span>配信されている評価メールにて評価をお願い致します</dd>
+          </dl>
+        </li>
+      </ul>
+    </article><!-- /#flow -->
+    
+    <article id="payment">
+      <h2>お支払いについて</h2>
+      <h3>クレジットカード</h3>
+      <p>取り扱いカードは以下のとおりです。すべてのカード会社で、一括払いが可能となっております。</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>カード会社</th>
+            <th>支払方法</th>
+          </tr>
+          <tr>
+            <td><img src="./img/info/logo_visa.png" alt="VISA"/></td>
+            <td>リボ,分割（3,5,6,10,12,15,18,20,24回が可能です）,ボーナス一括（夏[8月払い：12月16日〜6月15日]、冬[翌年1月払い：7月16日〜11月15日]）</td>
+          </tr>
+          <tr>
+            <td><img src="./img/info/logo_master.png" alt="MASTER"/></td>
+            <td>リボ,分割（3,5,6,10,12,15,18,20,24回が可能です）,ボーナス一括（夏[8月払い：12月16日〜6月15日]、冬[翌年1月払い：7月16日〜11月15日]）</td>
+          </tr>
+          <tr>
+            <td><img src="./img/info/logo_jcb.png" alt="JCB"/></td>
+            <td>リボ,分割（3,5,6,10,12,15,18,20,24回が可能です）,ボーナス一括（夏[8月払い：12月16日〜6月15日]、冬[翌年1月払い：7月16日〜11月15日]）</td>
+          </tr>
+          <tr>
+            <td><img src="./img/info/logo_amex.png" alt="AMEX"/></td>
+            <td>分割（3,5,6,10,12,15,18,20,24回が可能です）,ボーナス一括（夏[8月払い：12月16日〜6月15日]、冬[翌年1月払い：7月16日〜11月15日]）</td>
+          </tr>
+          <tr>
+            <td><img src="./img/info/logo_diners.png" alt="Diners"/></td>
+            <td>リボ,ボーナス一括（夏[8月払い：12月16日〜6月15日]、冬[翌年1月払い：7月16日〜11月15日]）</td>
+          </tr>
+        </tbody>
+      </table>
+      <dl>
+        <dt>備考</dt>
+        <dd>楽天市場のカード決済ではSSLというシステムを利用しております。　カード番号は暗号化されて送信されますのでご安心ください。</dd>
+        <dd>当カード決済システム上、クレジットカード利用控は 発行しておりません。</dd>
+        <dd>カード会社から送付されますご利用明細をご確認ください。</dd>
+      </dl>
+      <ul>
+        <li>お客様のご利用状態等によっては、他の決済手段に変更いただく場合がございます。</li>
+        <li>ご注文の際にお客様の本人確認（電話確認等）をお願いする場合もございます。</li>
+        <li>お客様と異なる名義のクレジットカードのご利用はできません。</li>
+      </ul>
+      <h3>楽天バンク決済</h3>
+      <p>「楽天バンク決済」は楽天銀行に口座をお持ちで、楽天会員の銀行口座を登録しているお客様のみ、ご利用いただける決済サービスです。あらかじめ、商品代金＋送料等（＋楽天バンク決済手数料（お客様負担時のみ））の総額が、お客様の残高の範囲内であることをご確認ください。</p>
+      <dl>
+        <dt>備考</dt>
+        <dd>ご注文の時間によっては、当日中の残高確認および振替ができない場合がございます。</dd>
+        <dd>1000円以上増額する金額変更があった場合は、お客様による変更承認の操作が必要となり、その旨メールでご連絡します。　メール送信後、3日以内に承諾いただけない場合には、自動的に注文がキャンセルになります。</dd>
+      </dl>
+      <ul>
+        <li>下記の振替手数料が発生します。
+          <table class="rakutenBank">
+            <caption>楽天バンク決済手数料 料金表</caption>
+            <tbody>
+              <tr>
+                <th>総合計金額</th>
+                <th>楽天バンク決済手数料(税込)</th>
+              </tr>
+              <tr>
+                <td>1円　〜　29,999円</td>
+                <td>155円</td>
+              </tr>
+              <tr>
+                <td>30,000円　〜</td>
+                <td>257円</td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>総合計金額は、商品代金・消費税・送料等を含めた合計金額からポイント利用分を差し引いた金額です。</li>
+      </ul>
+      <h3>銀行振込</h3>
+      <dl>
+        <dt>振込先</dt>
+        <dd>楽天銀行（ラクテンギンコウ）楽天市場支店（ラクテンイチバシテン） 普通 2015547 ラクテン（ＳＵＳＵＭＵ
+        <ul><li>この口座の権利は楽天株式会社が保有しています。</li></ul></dd>
+        <dt>備考</dt>
+        <dd>なお、振込手数料はお客様負担でお願い致します。</dd>
+        <dd>ご入金確認後に発送いたします。</dd>
+        <dd>お振込み時の控えは紛失しないようにご注意ください。</dd>
+      </dl>
+      <h3>楽天Edy決済</h3>
+      <dl>
+        <dt>備考</dt>
+        <dd>お支払総額は以下の通りです。 <br><span>商品代金：商品代金合計＋送料 </span></dd>
+        <dd>お支払総額の上限は50,000円となります。</dd>
+        <dd>ご注文後に、お支払いURLをメールでお知らせいたします。 パソリ、フェリカポート付パソコンでのお支払いは、<a href="https://link.rakuten.co.jp/0/019/072/?url=em_help/index_edy_cyber.html" target="_blank">こちら</a>をご覧ください。</dd>
+        <dd>ご入金が確認出来次第、商品を発送いたします。</dd>
+      </dl>
+    </article><!-- /#payment -->
+    
+    <article id="shipping">
+      <h2>送料について</h2>
+      <dl>
+        <dt>全国一律<span>送料無料</span></dt>
+        <dd>離島・一部地域でも追加送料がかかることはありません。</dd>
+      </dl>
+    </article><!-- /#shipping -->
+    
+    <article id="delivery">
+      <h2>配送について</h2>
+      <dl>
+        <dt><span>メール便</span>にてお届けします。</dt>
+        <dd>配送業者：日本郵便
+          <table>
+            <caption>商品発送のタイミング</caption>
+            <tbody>
+              <tr>
+                <th>楽天バンク決済、銀行振込</th>
+                <td>ご入金確認後2営業日以内に発送いたします。</td>
+              </tr>
+              <tr>
+                <th>クレジットカード決済</th>
+                <td>ご注文確認後2営業日以内に発送いたします。</td>
+              </tr>
+            </tbody>
+          </table>
+        </dd>
+      </dl>
+    </article><!-- /#delivery -->
+    
+    <article id="tax">
+      <h2>消費税について</h2>
+      <table>
+        <caption>消費税</caption>
+        <tbody>
+          <tr>
+            <th>消費税率</th>
+            <td>8％</td>
+          </tr>
+          <tr>
+            <th>消費税計算順序</th>
+            <td>１商品毎に消費税計算</td>
+          </tr>
+          <tr>
+            <th>１円未満消費税端数</th>
+            <td>切り捨て</td>
+          </tr>
+        </tbody>
+      </table>
+    </article><!-- /#tax -->
+    
+    <article id="return">
+      <h2>返品・交換について</h2>
+      <p>以下の条件に当てはまる場合、返品・交換を承ります。</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>商品等の不具合による交換</th>
+            <td>
+              <dl>
+                <dt>対応条件</dt>
+                <dd>万が一、商品の不備がありましたら、ご連絡ください。 迅速に対応させていただきます。</dd>
+                <dt>対応可能期間</dt>
+                <dd>対応期限はございません</dd>
+                <dt>返品送料</dt>
+                <dd>店舗負担</dd>
+                <dt>再送料</dt>
+                <dd>店舗負担</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <th>商品等の不具合による返金</th>
+            <td>
+              <dl>
+                <dt>対応条件</dt>
+                <dd>万が一、商品の不備がありましたら、ご連絡ください。 迅速に対応させていただきます。</dd>
+                <dt>対応可能期間</dt>
+                <dd>対応期限はございません</dd>
+                <dt>返金額</dt>
+                <dd>商品代金全額</dd>
+                <dt>返品送料</dt>
+                <dd>店舗負担</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <th>お客様都合による交換</th>
+            <td>
+              <dl>
+                <dt>対応条件</dt>
+                <dd>交換を承ります。</dd>
+                <dt>対応可能期間</dt>
+                <dd>対応期限はございません</dd>
+                <dt>返品送料</dt>
+                <dd>お客様負担</dd>
+                <dt>再送料</dt>
+                <dd>店舗負担</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <th>お客様都合による返金</th>
+            <td>
+              <dl>
+                <dt>対応条件</dt>
+                <dd>返品、返金を承ります。</dd>
+                <dt>対応可能期間</dt>
+                <dd>対応期限はございません</dd>
+                <dt>返金額</dt>
+                <dd>商品代金全額</dd>
+                <dt>返品送料</dt>
+                <dd>お客様負担</dd>
+              </dl>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article><!-- /#return -->
+    
+    <article id="open">
+      <h2>営業時間について</h2>
+      <p>ご注文は２４時間受け付けております。<br>店舗へのお問合せは、下記の時間帯にお願いいたします。<br>
+        <span>年末年始（12/29〜1/3）の電話・メール受付は休業させていただきます。商品は発送いたします。</span></p>
+      <table>
+        <tbody>
+          <tr>
+            <th>平日</th>
+            <td>9:00−18:00</td>
+          </tr>
+          <tr>
+            <th>土日</th>
+            <td>9:00−18:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </article><!-- /#open -->
+    
+    <article id="overseas">
+      <h2>海外販売について</h2>
+      <p>当店は海外へ発送を行っていません</p>
+    </article><!-- /#overseas -->
+    
+    <article id="inquiry">
+      <h2>お問い合わせ</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>メール</th>
+            <td><a href="mailto:susumu@shop.rakuten.co.jp">susumu@shop.rakuten.co.jp</a>（9時〜17時で随時対応）</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td>047-406-4246</td>
+          </tr>
+        </tbody>
+      </table>
+    </article><!-- /#inquiry -->
+    
+    <article id="policy">
+      <h2>プライバシーポリシー</h2>
+      <ul>
+        <li>お客様からいただいた個人情報は、商品発送とご連絡以外には一切使用いたしません。</li>
+        <li>当社が責任を持って安全に蓄積・保管し、第三者に譲渡・提供することはございません。</li>
+      </ul>
+    </article><!-- /#policy -->
+    
+    <article id="company">
+      <h2>運営会社</h2>
+      <dl>
+        <dt>株式会社ひらかな</dt>
+        <dd>〒275-0002　千葉県習志野市実籾5-39-7</dd>
+      </dl>
+    </article><!-- /#company -->
+    
+  </div>
+
+  <footer>
+    <iframe src="./footer2.html" name="footer" frameborder="0" scrolling="no">この部分はインラインフレームを使用しています。</iframe>
+  </footer>
+  <p id="pageTop"><a href="#"><i class="fas fa-chevron-up"></i></a></p>
+</body>
+</html>
